@@ -39,6 +39,6 @@ output "private_subnet_ids" {
 }
 
 output "transit_gateway_vpc_attachment_id" {
-  value       = aws_ec2_transit_gateway_vpc_attachment.main[0].id
+  value       = try(aws_ec2_transit_gateway_vpc_attachment.main[0].id, null)
   description = "ID of the transit gateway VPC attachment"
 }
