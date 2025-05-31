@@ -11,3 +11,5 @@ If you'd like to make the VPC accessible from other ones via Transit gateway you
 
 - transit_gateway_id (string)
 - accessible_cidr_blocks (list of strings)
+
+More docs to come later.
