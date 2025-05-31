@@ -14,4 +14,6 @@ If you'd like to make the VPC accessible from other ones via Transit gateway you
 
 This VPC module was built to be used with other instances of it in a transit gateway pattern.
 
+It can also optionally add IPv6 to the network but does not by default.
+
 More docs to come later.
