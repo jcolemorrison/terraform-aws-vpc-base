@@ -12,4 +12,6 @@ If you'd like to make the VPC accessible from other ones via Transit gateway you
 - transit_gateway_id (string)
 - accessible_cidr_blocks (list of strings)
 
+This VPC module was built to be used with other instances of it in a transit gateway pattern.
+
 More docs to come later.
